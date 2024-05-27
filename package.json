@@ -6,6 +6,7 @@
   "license": "MIT",
   "description": "Componente Login Horus, Moderno Mayo 2024",
   "keywords": ["react", "login", "component", "horus", "Tarsicio", "Carrizales"],
+  "repository": "https://github.com/tarsicio/React-Login-Component",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
