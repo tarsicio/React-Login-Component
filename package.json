@@ -1,11 +1,18 @@
 {
-  "name": "login-react-horus",
+  "name": "tarsicio-login-horus-1221",
   "version": "1.0.0",
   "type": "module",
   "author": "Tarsicio Carrizales",
   "license": "MIT",
   "description": "Componente Login Horus, Moderno Mayo 2024",
-  "keywords": ["react", "login", "component", "horus", "Tarsicio", "Carrizales"],
+  "keywords": [
+    "react",
+    "login",
+    "component",
+    "horus",
+    "Tarsicio",
+    "Carrizales"
+  ],
   "repository": "https://github.com/tarsicio/React-Login-Component",
   "main": "src/components/Login/Login.jsx",
   "scripts": {
@@ -21,6 +28,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
