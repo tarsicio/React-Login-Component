@@ -1,7 +1,7 @@
 /**
  * Componente creado por
  * @Author Tarsicio Carrizales telecom.com.ve@gmail.com
- * @Date 2024/05/27
+ * Fecha 2024/05/27
  * Este Componente se crea a partir de la plantilla HTML de https://youtube.com/@AsmrProg
  * La misma fue modificada en su totalidad ya que se encontraba en formato HTML y se paso a React
  * Si deseas componentes personalizados ponte en contacto. 
@@ -10,7 +10,7 @@
  * "@fortawesome/react-fontawesome": "^0.2.2",
  * "react-bootstrap": "^2.10.2",  
  */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './css/login.css';
 import Image from "react-bootstrap/Image";
 import LogoHorus from './img/horus.jpg';
@@ -79,4 +79,4 @@ const Login = () => {
   );
 };
 
-export {Login};
+export default Login
