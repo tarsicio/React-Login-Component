@@ -1,6 +1,6 @@
 {
   "name": "tarsicio-login-horus-1221",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "author": "Tarsicio Carrizales",
   "license": "MIT",
@@ -11,7 +11,8 @@
     "component",
     "horus",
     "Tarsicio",
-    "Carrizales"
+    "Carrizales",
+    "Venezuela"
   ],
   "repository": "https://github.com/tarsicio/React-Login-Component",
   "main": "src/components/Login/Login.jsx",
