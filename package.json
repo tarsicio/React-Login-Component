@@ -1,6 +1,6 @@
 {
-  "name": "tarsicio-login-horus-1221",
-  "version": "1.0.3",
+  "name": "@tarsicio/login-tarsicio-asmrprog",
+  "version": "1.0.0",
   "type": "module",
   "author": "Tarsicio Carrizales",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "Venezuela"
   ],
   "repository": "https://github.com/tarsicio/React-Login-Component",
-  "main": "src/components/Login/Login.jsx",
+  "main": "./src/components/Login/Login.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -44,5 +44,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
+  },
+  "exports": {
+    "./Login": "./src/components/Login/Login.jsx",
+    "./SocialMedia": "./src/components/Login/SocialMedia.jsx"
   }
 }
