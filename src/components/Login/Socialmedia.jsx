@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGooglePlusG, faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './css/login.css';
 
-const SocialMedia = () => {
+const Socialmedia = () => {
 
   return (
     <div className="social-icons">
@@ -20,6 +20,6 @@ const SocialMedia = () => {
       </a>
     </div>
   );
-};
+}
 
-export default SocialMedia
+export default Socialmedia;

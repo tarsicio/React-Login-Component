@@ -1,6 +1,6 @@
 {
-  "name": "@tarsicio/login-tarsicio-asmrprog",
-  "version": "1.0.0",
+  "name": "login-tarsicio-asmrprog",
+  "version": "1.0.2",
   "type": "module",
   "author": "Tarsicio Carrizales",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "Venezuela"
   ],
   "repository": "https://github.com/tarsicio/React-Login-Component",
-  "main": "./src/components/Login/Login.jsx",
+  "main": "./src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -46,7 +46,7 @@
     "vite": "^5.2.0"
   },
   "exports": {
-    "./Login": "./src/components/Login/Login.jsx",
-    "./SocialMedia": "./src/components/Login/SocialMedia.jsx"
+    "./src/components/Login/Login.jsx": "./src/components/Login/Login.jsx",
+    "./src/components/Login/Socialmedia.jsx": "./src/components/Login/Socialmedia.jsx"
   }
 }

@@ -14,7 +14,7 @@ import { useState } from 'react';
 import './css/login.css';
 import Image from "react-bootstrap/Image";
 import LogoHorus from './img/horus.jpg';
-import SocialMedia from './SocialMedia';
+import Socialmedia from './Socialmedia.jsx';
 
 const Login = () => {
   const [isActive, setIsActive] = useState(false);
@@ -32,7 +32,7 @@ const Login = () => {
       <div className="form-container sign-up">
         <form>
           <h4>Create Account</h4>
-          <SocialMedia />
+          <Socialmedia />
           <span>or use your email for registeration</span>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
@@ -43,7 +43,7 @@ const Login = () => {
       <div className="form-container sign-in">
         <form>
           <h4>Sign In</h4>
-          <SocialMedia />
+          <Socialmedia />
           <span>or use your email password</span>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
@@ -77,6 +77,6 @@ const Login = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Login;
